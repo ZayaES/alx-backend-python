@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """ contains my first coroutine """
+import asyncio
+import random
 
-
-import asyncio, random
 
 async def wait_random(max_delay: int = 10) -> float:
     """waits a certain time between 0 and max delay
